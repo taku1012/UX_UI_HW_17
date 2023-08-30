@@ -1,0 +1,50 @@
+.navBar {
+    display: flex;
+    width: 1440px;
+    padding: 10px 40px;
+    align-items: flex-start;
+}
+.navRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero {
+    height: 738px;
+    width: 1378px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.heroLeft {
+    left: 0;
+    background-color: white;
+}
+.heroRight {
+    right: 0;
+    background: orange
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white
+}
+.footer {
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color: white;
+}
